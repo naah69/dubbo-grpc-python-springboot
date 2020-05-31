@@ -1,0 +1,11 @@
+server:
+  port: 18080
+spring:
+  application:
+    name: dubbo-provider
+dubbo:
+  registry:
+    address: zookeeper://127.0.0.1:2181
+#    这里必须加上这个protocol，否则报错缺少叫grpc的bean
+  protocol:
+    name: grpc
