@@ -24,7 +24,7 @@
     <properties>
         <java.version>1.8</java.version>
         <grpc.version>1.19.0</grpc.version>
-        <dubbo.version>2.7.5</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <dubbo.compiler.version>0.0.1</dubbo.compiler.version>
     </properties>
 
